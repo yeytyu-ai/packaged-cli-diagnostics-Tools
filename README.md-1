@@ -1,0 +1,20 @@
+# Packaged CLI Diagnostics Tool
+
+A simple Python CLI tool for checking system diagnostics.
+
+## Features
+
+- Checks Python version
+- Checks disk space
+- Checks environment variables
+- Checks developer tools
+- Supports JSON output
+- Provides human-readable output
+- Uses useful exit codes
+
+## Installation
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
