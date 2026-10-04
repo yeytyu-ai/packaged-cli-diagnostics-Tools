@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packaged-cli-diagnostics"
+version = "0.1.0"
+description = "A Python CLI tool for system diagnostics"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Y. Thriveni"}
+]
+dependencies = []
+
+[project.scripts]
+diagnostics = "diagnostics_cli.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["diagnostics_cli*"]
