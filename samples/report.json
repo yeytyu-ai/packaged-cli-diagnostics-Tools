@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "python": {
+    "version": "3.12.0",
+    "implementation": "CPython",
+    "executable": "/usr/bin/python3"
+  },
+  "disk": {
+    "path": ".",
+    "total_gb": 100.0,
+    "free_gb": 50.0,
+    "minimum_required_gb": 1.0
+  },
+  "environment": {
+    "PATH": "<system PATH>",
+    "HOME": "<home directory>",
+    "SHELL": "<shell>",
+    "VIRTUAL_ENV": "<virtual environment>"
+  },
+  "developer_tools": {
+    "git": {
+      "installed": true,
+      "path": "/usr/bin/git",
+      "version": "git version 2.x"
+    },
+    "python": {
+      "installed": true,
+      "path": "/usr/bin/python3",
+      "version": "Python 3.x"
+    }
+  }
+}
