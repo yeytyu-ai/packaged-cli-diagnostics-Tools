@@ -1,0 +1,25 @@
+=== Packaged CLI Diagnostics Report ===
+
+Status: PASS
+
+Python
+  Version: 3.x
+  Implementation: CPython
+
+Disk
+  Total: 100.0 GB
+  Free: 50.0 GB
+
+Environment Variables
+  PATH: <system PATH>
+  HOME: <home directory>
+  SHELL: <shell>
+  VIRTUAL_ENV: <virtual environment>
+
+Developer Tools
+  git: installed
+  python: installed
+  pip: installed
+  gcc: not found
+  node: not found
+  npm: not found
